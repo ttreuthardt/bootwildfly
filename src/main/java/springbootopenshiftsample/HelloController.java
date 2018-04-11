@@ -19,7 +19,7 @@ public class HelloController {
             e.printStackTrace();
         }
 
-        return ("Hello, SpringBoot on Wildfly 10.1 from " + hostName);
+        return ("Hello, Docker Academy on Wildfly 10.1 from " + hostName);
     }
 
 }
