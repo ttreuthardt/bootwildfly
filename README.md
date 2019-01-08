@@ -1,8 +1,6 @@
-This is a repo to use as a quickstart to start working with Spring Boot and deploying to the WildFly application server.  
-This uses the mvn build system and creates a .war file that can be deployed. The code also contains a sample REST based service listening at /hello.
-
-As an added bonus, this repo can also be deployed directly as a docker container using the WildFly S2I builder image on OpenShift 3 with the following command:
+This is a repo to use as a quick start to start working with Spring Boot and deploying with the fabric8/s2i-java image.  
+The code contains a sample REST based service listening at /hello.
 
 ```bash
-oc new-app wildfly:13.0~https://github.com/ttreuthardt/spring-boot-openshift-sample.git
+oc new-app fabric8/s2i-java~hhttps://github.com/ttreuthardt/spring-boot-openshift-sample.git#java --allow-missing-images
 ```
