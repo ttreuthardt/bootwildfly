@@ -19,7 +19,7 @@ public class HelloController {
             e.printStackTrace();
         }
 
-        return ("Hello. TEST You hit the pod -> " + hostName);
+        return ("Hello. 2019 You hit the pod -> " + hostName);
     }
 
 }
