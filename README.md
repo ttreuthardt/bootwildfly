@@ -4,5 +4,3 @@ The code contains a sample REST based service listening at /hello.
 ```bash
 oc new-app fabric8/s2i-java~hhttps://github.com/ttreuthardt/spring-boot-openshift-sample.git#java --allow-missing-images
 ```
-
-test
